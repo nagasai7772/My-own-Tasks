@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        
+        
+               text{
+            position: relative;
+            text-align: center;
+    color: white;
+
+        }
+form{
+    position: absolute;
+    top:10%;
+    left:40%
+    
+}
+input{
+            width:146%;
+            box-sizing: border-box;
+            border-radius: 8px;
+              padding: 11px;
+            color: black;
+            text-align: center;
+        }
+        button
+        {
+            width:146%;
+            box-sizing: border-box;
+            border-radius: 8px;
+              padding: 5px;
+background-color: dodgerblue;
+        }
+
+
+    </style>
+    <center>
+        <div class="text">
+            <img src="../assests/images/insta.png" height="560" width="500" >
+            <div class="form">
+     <form>
+        <label for="fname">Enter Your Name:</label><br><br>
+        <input type="text" id="fname" placeholder="Enter first name" required ><br><br>
+        <label for="lname">Enter Last Name:</label><br><br>
+        <input type="text" id="lname" placeholder="Enter last name "><br><br>
+        <label for="mail">Enter your Email:</label><br><br>
+        <input type="email" id="mail" placeholder="someone@gmail.com" required>
+        <br><br>
+        <label for="num">Enter Mobile number:</label><br><br>
+        <input type="tel" id="num" placeholder="##########" pattern="[0-9]{10}" required>
+        <br><br>
+        <button formaction="../Task/create.html"> Login</button>
+     
+    </center>
+    </form></div></div>
+    
+</body>
+</html>

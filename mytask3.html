@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .log{
+            position:relative;
+            text-align: center;
+            color:black;
+        }
+        .sign{
+            position:absolute;
+            top:20%;
+            left:40%;
+        }
+        input{
+            width:146%;
+            padding:10px;
+            box-sizing: border-box;
+            border-radius: 10px;
+            text-align: center;
+        }
+        button{
+            text-align: center;
+        background-color: dodgerblue;
+        width:146%;
+        padding:10px;
+        border-radius: 10px;
+        }
+        a{
+            color:red;
+            font-size: 18px;
+        }
+    </style>
+
+   <img src="../assests/images/Instagram2.jpg" height="300" width="1550">
+   
+    <form>
+        <div class="log">
+            <img src="../assests/images/baby.webp" height="560" width="500">
+            <div class="sign">
+        <center>
+        <label for="name">Enter Email or Mobile number</label><br><br>
+        <input type="email" id="name" placeholder="Mobile number or Email,Username" required pattern=[0-9][a-z](?=*/)[A-Z]><br><br>
+        <label for="pass">Enter password:</label><br><br>
+        <input type="password" id="pass" required placeholder="Enter password" ><br><br>
+        <button formaction="../Task/logged.html">Login</button>
+     <center>   <h3>or</h3>
+        <a href="../Task/forgot.html">Forgot password ?</a>
+        <h4>Dont have account ?<a href="../Task/signup.html"> Signup</a></h4></center>
+    </center>
+</form>
+</div>
+</div>
+       
+    
+    
+</body>
+</html>

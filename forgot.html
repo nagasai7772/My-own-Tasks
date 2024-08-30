@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        input{
+            width:40%;
+padding: 9px;
+box-sizing: border-box;
+border-radius: 10px;
+text-align: center;
+        }
+        button{
+            width: 40%;
+            padding: 9px;
+            border-radius: 10px;
+            background-color: aqua;
+        }
+    </style>
+    <form>
+     <center>   <label for="Email or mobile">Enter Email or Mobile:</label><br><br>
+        <input type="txt" id="Email or mobile" required placeholder="Mobile or email" pattern="[0-9]{10}[a-z](?=*/)[A-Z]"><br>
+        <label for="pwd">Enter New password</label><br><br>
+           <input type="password" id="pwd" required placeholder="New password" pattern="[0-9]{10}[a-z](?=*/)[A-Z]" ><br>
+           <label for="pdw">Re-enter password</label><br><br>
+           <input type="password" id="pdw" required placeholder="Re Enter password" pattern="[0-9]{10}[a-z](?=*/)[A-Z]"><br><br>
+           <button type="submit" formaction="../Task/Changed.html">Confirm password</button>
+
+    </form></center>
+</body>
+</html>
